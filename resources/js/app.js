@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 
 import App from './components/App';
 import Home from './components/Home';
-import Desks from './components/Desks';
+import Desks from './components/desks/Desks';
 
 const router = new VueRouter({
     mode: 'history',
